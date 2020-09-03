@@ -18,7 +18,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
+	margin: 0 0 0 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -1482,7 +1482,7 @@ input, select, textarea {
 	}
 
 		header h2, header h3 {
-			margin: 0 0 0.25em 0;
+			margin: 0 0 0em 0;
 		}
 
 		header p {
@@ -1799,7 +1799,7 @@ input, select, textarea {
 		}
 
 			.box.feature .inner {
-				padding: 4em 2em 3em 2em;
+				padding: 2em 2em 3em 2em;
 			}
 
 			.box.feature h2 {
@@ -1873,8 +1873,9 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		left: -4px;
-		top: 4px;
+		top: 5px;
 		margin-bottom: 1.5em;
+
 	}
 
 		.widget.contact ul li {
@@ -1889,20 +1890,21 @@ input, select, textarea {
 				-ms-transition: background-color .25s ease-in-out;
 				transition: background-color .25s ease-in-out;
 				display: inline-block;
-				width: 2.5em;
-				height: 2.5em;
+				width: 3.6em;
+				height: 3.6em;
 				text-align: center;
-				line-height: 2.5em;
+				line-height: 3.6em;
 				border-radius: 0.35em;
 				outline: 0;
 				opacity: 0.75;
 				text-decoration: none;
 				background: #222222;
+				margin: 2.5em 3.7em 0 1em;
 			}
 
 				.widget.contact ul li a:before {
 					color: #f3f3f3;
-					font-size: 1.5em;
+					font-size: 2em;
 					line-height: inherit;
 				}
 
