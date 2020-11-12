@@ -4,10 +4,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+const tl = new TimelineMax();
+
 (function($) {
 
 	var	$window = $(window),
-		$body = $('body');
+		$body = $('body'); 
 
 	// Breakpoints.
 		breakpoints({
